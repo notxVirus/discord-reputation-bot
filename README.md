@@ -12,6 +12,8 @@ This Python script for a Discord bot offers powerful functionality. It allows yo
 
 **⚠️ Make sure to turn on ALL Bot intents**
 
+- Ensure you've installed all the necessary libraries by running: `pip install -r requirements.txt`
+
 ## 💫 Some screenshots
 ![image](https://github.com/notxVirus/discord-reputation-bot/assets/110777588/e6717c24-ae3e-4f63-945f-903e8e035cbf)
 ![image](https://github.com/notxVirus/discord-reputation-bot/assets/110777588/a195ab12-54b6-4e34-8058-362e5c8a80ee)
