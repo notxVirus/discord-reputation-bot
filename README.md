@@ -9,6 +9,7 @@ This Python script for a Discord bot offers powerful functionality. It allows yo
 3. Define your chosen Bot prefix.
 4. Specify whitelisted channels for +rep & -rep commands.
 5. Add your Discord ID in the `devs` section for access to devs-only commands."
+**⚠️ Make sure to turn on ALL Bot intents**
 
 ## Some screenshots 💫
 ![image](https://github.com/notxVirus/discord-reputation-bot/assets/110777588/e6717c24-ae3e-4f63-945f-903e8e035cbf)
