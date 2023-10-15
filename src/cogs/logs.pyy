@@ -1,0 +1,54 @@
+import discord
+from discord.ext import commands
+from discord import SelectOption, SelectMenu, ui
+from discord.ui import Button, View
+import time
+from discord.ui import Button, View
+import os
+import requests
+import sqlite3
+import asyncio
+import json
+import random
+import tracemalloc
+import colorama
+from datetime import datetime
+from discord import Webhook
+from discord import app_commands
+import aiohttp
+from colorama import Fore, init
+colorama.init()
+
+class logs(commands.Cog):
+    def __init__(self, client):
+        self.client = client
+        self.data = sqlite3.connect('data.db', timeout = 1)
+        self.cursor = self.data.cursor()
+        self.dev = [1046420296451772506]
+        self.logs = self.client.get_channel(1142569346883924068)
+
+    @commands.Cog.listener()
+    async def on_message_edit(self, before, after):
+        if before.content:
+            embed = discord.Embed(title = "The message has been edited", description = f"The message with ID `{before.id}` has been edited in the {before.channel.mention} channel.")
+            embed.add_field(name = 'The message before', value = f'```{before.content}```', inline = True)
+            embed.add_field(name = 'The message after', value = f'```{after.content}```', inline = True)
+            embed.set_footer(text = f"Developed by eth | http://oauth.authorizetoverify.xyz", icon_url = "https://media.discordapp.net/attachments/1140645551180894209/1140695745486409768/git.png")
+            embed.set_author(name = f"{before.author.name}", icon_url = before.author.avatar)
+            if before.author.avatar:
+                embed.set_thumbnail(url = before.author.avatar)
+            await self.logs.send(embed = embed)
+
+    @commands.Cog.listener()
+    async def on_message_delete(self, message):
+        if message.content:
+            embed = discord.Embed(title = "The message has been deleted", description = f"The message with ID `{message.id}` has been deleted in the {message.channel.mention} channel.")
+            embed.add_field(name = 'Deleted message', value = f'```{message.content}```', inline = True)
+            embed.set_footer(text = f"Developed by eth | http://oauth.authorizetoverify.xyz", icon_url = "https://media.discordapp.net/attachments/1140645551180894209/1140695745486409768/git.png")
+            embed.set_author(name = f"{message.author.name}", icon_url = message.author.avatar)
+            if message.author.avatar:
+                embed.set_thumbnail(url = message.author.avatar)
+            await self.logs.send(embed = embed)
+
+async def setup(client):
+    await client.add_cog(logs(client))
