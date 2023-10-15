@@ -5,7 +5,7 @@ from discord.ext import commands
 
 async def addRole(guild, userID: int):
     member = await guild.fetch_member(userID)
-    data = sqlite3.connect('data.db', timeout = 1)
+    data = sqlite3.connect('././data.db', timeout = 1)
     cursor = data.cursor()
     if member:
         try:
