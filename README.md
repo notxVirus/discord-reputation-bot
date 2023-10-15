@@ -13,9 +13,9 @@ This Python script for a Discord bot offers powerful functionality. It allows yo
 **⚠️ Ensure you've installed all the necessary libraries by running: `pip install -r requirements.txt` and turned on ALL Bot intents**
 
 ## 💫 Some screenshots
-![image](https://github.com/notxVirus/discord-reputation-bot/assets/110777588/e6717c24-ae3e-4f63-945f-903e8e035cbf)
-![image](https://github.com/notxVirus/discord-reputation-bot/assets/110777588/a195ab12-54b6-4e34-8058-362e5c8a80ee)
-![image](https://github.com/notxVirus/discord-reputation-bot/assets/110777588/06e8e114-3e08-4d55-8eb2-215b565644eb)
-![image](https://github.com/notxVirus/discord-reputation-bot/assets/110777588/44c89468-c5ea-4a3a-a1b1-386fb8d85daa)
-![image](https://github.com/notxVirus/discord-reputation-bot/assets/110777588/4db9e99e-6063-4f1d-bfb5-dd544ade33e7)
-![image](https://github.com/notxVirus/discord-reputation-bot/assets/110777588/458d6fad-a629-4592-af86-e8af6bdb092d)
+![image](https://github.com/notxVirus/discord-reputation-bot/assets/110777588/8a3dd883-b9b5-4091-af6f-47aae91435d2)
+![image](https://github.com/notxVirus/discord-reputation-bot/assets/110777588/4196e4d3-978f-4564-833d-f389cbcd542a)
+![image](https://github.com/notxVirus/discord-reputation-bot/assets/110777588/d926a036-745e-4f06-97bf-b86c9ef136e9)
+![image](https://github.com/notxVirus/discord-reputation-bot/assets/110777588/2b468a14-849e-46cf-b55a-7170dcf6a974)
+![image](https://github.com/notxVirus/discord-reputation-bot/assets/110777588/76dfa036-dad1-4bea-9b5e-7bd15a1e43ab)
+![image](https://github.com/notxVirus/discord-reputation-bot/assets/110777588/e45f34b5-fe64-443d-b4ac-19bd8635233e)
