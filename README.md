@@ -14,4 +14,6 @@ This Python script for a Discord bot offers powerful functionality. It allows yo
 
 ## 💫 Some screenshots
 ![image](https://github.com/notxVirus/discord-reputation-bot/assets/110777588/e6717c24-ae3e-4f63-945f-903e8e035cbf)
-![image](https://github.com/notxVirus/discord-reputation-bot/assets/110777588/9b7bdf18-d68f-4092-b0d8-f1e14d3132c2)
+![image](https://github.com/notxVirus/discord-reputation-bot/assets/110777588/a195ab12-54b6-4e34-8058-362e5c8a80ee)
+![image](https://github.com/notxVirus/discord-reputation-bot/assets/110777588/44c89468-c5ea-4a3a-a1b1-386fb8d85daa)
+![image](https://github.com/notxVirus/discord-reputation-bot/assets/110777588/06e8e114-3e08-4d55-8eb2-215b565644eb)
